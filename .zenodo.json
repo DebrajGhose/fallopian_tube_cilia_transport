@@ -1,0 +1,33 @@
+{
+  "title": "Code for: Human fallopian tube-on-a-chip for preclinical testing of non-hormonal contraceptives with living human sperm",
+  "upload_type": "software",
+  "description": "<p>MATLAB code and bead-tracking data for the paper <em>Human fallopian tube-on-a-chip for preclinical testing of non-hormonal contraceptives with living human sperm</em> (bioRxiv preprint, doi:10.64898/2026.01.22.700844).</p><ul><li><code>cilia_different_sized_beads_emergent_dynamics.m</code>: simulation of 5 µm and 100 µm bead movement with and without beating cilia, comparing mean squared displacement (MSD).</li><li><code>cilia_moving_stuffmlx.mlx</code>: MATLAB live script with an MSD illustration (subdiffusive, diffusive and superdiffusive movement) and simulations of how bead size and cilia spacing affect bead diffusion.</li><li><code>Spot Data Analysis/</code>: scripts that calculate MSD and plot trajectories of tracked 5 µm and 100 µm beads under three conditions (\"Empty\", \"No Hormones\", \"2 nM E2\"), together with the tracking data (CSV files and zip archives).</li></ul>",
+  "creators": [
+    {
+      "name": "Ghose, Debraj",
+      "affiliation": "Wyss Institute for Biologically Inspired Engineering at Harvard University"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "fallopian tube",
+    "organ-on-a-chip",
+    "cilia",
+    "particle tracking",
+    "mean squared displacement",
+    "MATLAB"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.64898/2026.01.22.700844",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/DebrajGhose/fallopian_tube_cilia_transport",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
